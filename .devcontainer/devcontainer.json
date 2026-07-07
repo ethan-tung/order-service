@@ -1,0 +1,8 @@
+{
+  "name": "OrderService Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:10",
+  "features": {},
+  "forwardPorts": [5000],
+  "workspaceFolder": "/workspace",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
+}

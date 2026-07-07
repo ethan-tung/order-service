@@ -1,0 +1,20 @@
+bin/
+obj/
+.vs/
+.vscode/
+.devcontainer/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.opendb
+*.db
+.env
+.env.*
+*.db
+
+# Docker
+docker-compose.override.yml
+
+# Rider
+.idea/
